@@ -8,8 +8,7 @@ import org.testng.ITestResult;
 
 import Common.browsers;
 
-public class App extends browsers implements ITestListener 
-{
+public class App extends browsers implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
@@ -43,17 +42,20 @@ public class App extends browsers implements ITestListener
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
+		System.out.println(("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName()));
 		
+	}
+	public void onTestFailedWithTimeout(ITestResult result) {
+		System.out.println(("onTestFailedWithTimeout for " + result.getMethod().getMethodName()));
+		onTestFailure(result);
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		
+			
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		
 		
 	}
     
