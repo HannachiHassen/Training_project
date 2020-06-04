@@ -1,15 +1,3 @@
-# Expedia Booking
-```
-Create a script by using Maven project with TestNG framework for following steps:
-```
-1. Go to https://expedia.com
-2. Click on flights tab
-3. Fill the form to search flight for roundtrip and click on search button
-4. Select the flights
-5. Click on “No thanks” for pop-up
-6. Click on continue booking button
-7. Fill the passenger’s information
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
