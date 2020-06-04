@@ -30,6 +30,7 @@ public class App extends browsers implements ITestListener
 		// TODO Auto-generated method stub
 		try {
 			screenshots("C:\\Users\\HASSEN\\workspace\\Training\\fail\\");
+			System.out.println("the screenshot is stored in : Training\\fail folder");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
